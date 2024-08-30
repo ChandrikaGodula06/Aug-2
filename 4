@@ -1,0 +1,11 @@
+array = [10, 21, 4, 45, 66, 93, 22]
+element_to_search = 45
+found = False
+for element in array:
+    if element == element_to_search:
+        found = True
+        break
+if found:
+    print(f"Element {element_to_search} found in the array.")
+else:
+    print(f"Element {element_to_search} not found in the array.")
